@@ -47,7 +47,7 @@ class GameOver: SKScene {
         label.color = SKColor.white
         label.horizontalAlignmentMode = .center
         label.verticalAlignmentMode = .center
-        label.text = "Score: 00"
+        label.text = "Score \(ACTPlayerStats.shared.getScore())"
         
         return label
     }()
@@ -59,7 +59,7 @@ class GameOver: SKScene {
         label.color = SKColor.white
         label.horizontalAlignmentMode = .center
         label.verticalAlignmentMode = .center
-        label.text = "Best Score: 00"
+        label.text = "Best Score \(ACTPlayerStats.shared.getBestScore())"
         
         return label
     }()
@@ -76,7 +76,7 @@ class GameOver: SKScene {
     
     lazy var replayButton: BDButton = {
         var button = BDButton(imageNamed: "blue_button02", title: "replay", buttonAction: {
-            Manager.shared.transition(self, toScene: .MainMenu, transition: SKTransition.moveIn(with: .up, duration: 0.5))
+            Manager.shared.transition(self, toScene: .Gameplay, transition: SKTransition.moveIn(with: .up, duration: 0.5))
         })
         button.scaleTo(ScreenWithPercentage: 0.22)
         button.zPosition = 1

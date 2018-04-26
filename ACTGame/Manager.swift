@@ -12,7 +12,7 @@ import SpriteKit
 class Manager {
     
     enum SceneType {
-        case MainMenu, Gameplay
+        case MainMenu, Gameplay, GameOver
     }
     
     private init() {}
@@ -53,6 +53,8 @@ class Manager {
             return MainMenu(size: CGSize(width: ScreenSize.width, height: ScreenSize.height))
         case SceneType.Gameplay:
             return GamePlayScene(size: CGSize(width: ScreenSize.width, height: ScreenSize.height))
+        case SceneType.GameOver:
+            return GameOver(size: CGSize(width: ScreenSize.width, height: ScreenSize.height))
         }
     }
     

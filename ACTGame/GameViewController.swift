@@ -24,7 +24,7 @@ class GameViewController: UIViewController {
         
         skView.anchor(top: view.topAnchor, leading: view.leadingAnchor, bottom: view.bottomAnchor, trailing: view.trailingAnchor)
         
-        let scene = GameOver(size: CGSize(width: ScreenSize.width, height: ScreenSize.height))
+        let scene = GamePlayScene(size: CGSize(width: ScreenSize.width, height: ScreenSize.height))
         scene.scaleMode = .aspectFill
         
         skView.presentScene(scene)
