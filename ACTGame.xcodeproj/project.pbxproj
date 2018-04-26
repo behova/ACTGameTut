@@ -18,6 +18,8 @@
 		8858230A20915450008A51C3 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8858230920915450008A51C3 /* Manager.swift */; };
 		8858230C209154EF008A51C3 /* ACTPlayerStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8858230B209154EE008A51C3 /* ACTPlayerStats.swift */; };
 		8858230E20915552008A51C3 /* GamePlayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8858230D20915552008A51C3 /* GamePlayScene.swift */; };
+		8858231220916479008A51C3 /* stocky.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8858231120916479008A51C3 /* stocky.ttf */; };
+		8858231420916755008A51C3 /* GameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8858231320916755008A51C3 /* GameOver.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		8858230920915450008A51C3 /* Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
 		8858230B209154EE008A51C3 /* ACTPlayerStats.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACTPlayerStats.swift; sourceTree = "<group>"; };
 		8858230D20915552008A51C3 /* GamePlayScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePlayScene.swift; sourceTree = "<group>"; };
+		8858231120916479008A51C3 /* stocky.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = stocky.ttf; sourceTree = "<group>"; };
+		8858231320916755008A51C3 /* GameOver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,7 @@
 		885822EA20914E9A008A51C3 /* ACTGame */ = {
 			isa = PBXGroup;
 			children = (
+				8858231120916479008A51C3 /* stocky.ttf */,
 				885822EB20914E9A008A51C3 /* AppDelegate.swift */,
 				885822F120914E9A008A51C3 /* GameScene.swift */,
 				885822F320914E9A008A51C3 /* GameViewController.swift */,
@@ -78,6 +83,7 @@
 				8858230920915450008A51C3 /* Manager.swift */,
 				8858230B209154EE008A51C3 /* ACTPlayerStats.swift */,
 				8858230D20915552008A51C3 /* GamePlayScene.swift */,
+				8858231320916755008A51C3 /* GameOver.swift */,
 			);
 			path = ACTGame;
 			sourceTree = "<group>";
@@ -140,6 +146,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8858231220916479008A51C3 /* stocky.ttf in Resources */,
 				885822F920914E9C008A51C3 /* Assets.xcassets in Resources */,
 				885822FC20914E9C008A51C3 /* LaunchScreen.storyboard in Resources */,
 			);
@@ -155,6 +162,7 @@
 				88582306209151DC008A51C3 /* MainMenu.swift in Sources */,
 				885822F220914E9A008A51C3 /* GameScene.swift in Sources */,
 				885822F420914E9A008A51C3 /* GameViewController.swift in Sources */,
+				8858231420916755008A51C3 /* GameOver.swift in Sources */,
 				8858230C209154EF008A51C3 /* ACTPlayerStats.swift in Sources */,
 				885822EC20914E9A008A51C3 /* AppDelegate.swift in Sources */,
 				8858230E20915552008A51C3 /* GamePlayScene.swift in Sources */,

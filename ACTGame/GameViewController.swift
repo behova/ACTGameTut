@@ -24,10 +24,10 @@ class GameViewController: UIViewController {
         
         skView.anchor(top: view.topAnchor, leading: view.leadingAnchor, bottom: view.bottomAnchor, trailing: view.trailingAnchor)
         
-        let menu = MainMenu(size: CGSize(width: ScreenSize.width, height: ScreenSize.height))
-        menu.scaleMode = .aspectFill
+        let scene = GameOver(size: CGSize(width: ScreenSize.width, height: ScreenSize.height))
+        scene.scaleMode = .aspectFill
         
-        skView.presentScene(menu)
+        skView.presentScene(scene)
         skView.ignoresSiblingOrder = true
         
         
